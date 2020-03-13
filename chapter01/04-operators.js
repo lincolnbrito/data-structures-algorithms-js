@@ -52,3 +52,16 @@ console.log("~5 ~> ", (~5));
 console.log("5 ^ 1 ~> ", (5 ^ 1));
 console.log("5 << 1 ~> ", (5 << 1));
 console.log("5 >> 1 ~> ", (5 >> 1));
+
+
+//typeof operator return the type of the variable or expression
+console.log('typeof num: ', typeof num);
+console.log('typeof Packt: ', typeof 'Packt');
+console.log('typeof true: ', typeof true);
+console.log('typeof [1,2,3]: ', typeof [1, 2, 3]);
+console.log('typeof {name: john}: ', typeof { name: 'john' });
+
+//delete operator
+var myObj = { name: 'John', age: 21 };
+delete myObj.age;
+console.log(myObj);
